@@ -1,17 +1,18 @@
 import { StatusBar } from "expo-status-bar";
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-export default function App() {
+export const Main = () => {
   return (
     <SafeAreaProvider>
       <View style={styles.container}>
         <StatusBar style="auto" />
-        <Text>Open up App.tsx to start working on your app!</Text>
+        <Text>Open up Main!!!</Text>
       </View>
     </SafeAreaProvider>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
